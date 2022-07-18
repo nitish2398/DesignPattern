@@ -1,7 +1,7 @@
-package factory.impl;
+package factoryMethod.impl;
 
-import factory.interfaces.Animal;
-import factory.interfaces.AnimalFactory;
+import factoryMethod.interfaces.Animal;
+import factoryMethod.interfaces.AnimalFactory;
 
 import java.util.Random;
 

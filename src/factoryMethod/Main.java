@@ -1,8 +1,8 @@
-package factory;
+package factoryMethod;
 
-import factory.impl.RandomAnimalFactory;
-import factory.impl.SequentialAnimalFactory;
-import factory.interfaces.AnimalFactory;
+import factoryMethod.impl.RandomAnimalFactory;
+import factoryMethod.impl.SequentialAnimalFactory;
+import factoryMethod.interfaces.AnimalFactory;
 
 /**
  * Factory pattern allows the encapsulation and abstraction of the instantiation logic at single place,
