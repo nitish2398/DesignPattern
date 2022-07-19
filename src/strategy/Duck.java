@@ -1,6 +1,5 @@
 package strategy;
 
-import com.sun.istack.internal.NotNull;
 import strategy.interfaces.DisplayStrategy;
 import strategy.interfaces.FlyStrategy;
 import strategy.interfaces.QuackStrategy;
@@ -13,9 +12,9 @@ public class Duck {
     private final QuackStrategy quackStrategy;
     private final FlyStrategy flyStrategy;
 
-    public Duck(@NotNull DisplayStrategy displayStrategy,
-                @NotNull QuackStrategy quackStrategy,
-                @NotNull FlyStrategy flyStrategy) {
+    public Duck(DisplayStrategy displayStrategy,
+                QuackStrategy quackStrategy,
+                FlyStrategy flyStrategy) {
         this.displayStrategy = displayStrategy;
         this.quackStrategy = quackStrategy;
         this.flyStrategy = flyStrategy;
