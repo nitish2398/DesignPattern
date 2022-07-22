@@ -4,6 +4,7 @@ import command.impl.IntensityControlCommand;
 import command.impl.LightOffCommand;
 import command.impl.LightOnCommand;
 import command.interfaces.Command;
+import command.model.Light;
 
 /**
  * Command Pattern encapsulates a Request and thereby letting you parameterize other objects withs their request,

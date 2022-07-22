@@ -1,6 +1,6 @@
 package command.impl;
 
-import command.Light;
+import command.model.Light;
 import command.interfaces.Command;
 
 public class LightOnCommand implements Command {

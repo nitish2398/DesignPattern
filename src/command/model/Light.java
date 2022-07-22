@@ -1,4 +1,4 @@
-package command;
+package command.model;
 
 public class Light {
     private int intensity;
