@@ -17,7 +17,7 @@ public class Main {
      *        1. Object for which commands are required - Example light
      *        2. Command interface with execute method
      *        3. Command implementations with various possible commands like - LightOn, LightOff,
-     *        IntensityChangeCommand, FlickerCommand, etc.
+     *           IntensityChangeCommand, FlickerCommand, etc.
      *        4. A RemoteController Class which composite command interface and execute them.
      */
     public static void main(String[] args) {
@@ -38,7 +38,7 @@ public class Main {
         printState(light);
 
         System.out.println("Undo TurnOff light");
-        remote.setCommand(lightOff).execute();
+        remote.setCommand(lightOff).undo();
         printState(light);
 
         System.out.println("Decrease intensity to 50%");
