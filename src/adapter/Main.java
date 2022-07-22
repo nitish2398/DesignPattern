@@ -1,8 +1,8 @@
-package adapater;
+package adapter;
 
-import adapater.impl.AdapeeImpl;
-import adapater.impl.Adaptor;
-import adapater.interfaces.Target;
+import adapter.impl.AdapeeImpl;
+import adapter.impl.Adaptor;
+import adapter.interfaces.Target;
 
 /**
  * Adaptor let class work together which couldn't work together other, due to incompatible interfaces.

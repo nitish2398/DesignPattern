@@ -1,6 +1,6 @@
-package adapater.impl;
+package adapter.impl;
 
-import adapater.interfaces.Adaptee;
+import adapter.interfaces.Adaptee;
 
 public class AdapeeImpl implements Adaptee {
     @Override

@@ -1,7 +1,7 @@
-package adapater.impl;
+package adapter.impl;
 
-import adapater.interfaces.Adaptee;
-import adapater.interfaces.Target;
+import adapter.interfaces.Adaptee;
+import adapter.interfaces.Target;
 
 public class Adaptor implements Target {
     private Adaptee adaptee;

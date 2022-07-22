@@ -1,4 +1,4 @@
-package adapater.interfaces;
+package adapter.interfaces;
 
 public interface Target {
     void request();
